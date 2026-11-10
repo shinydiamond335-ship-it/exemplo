@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header class="container-fluid bg-primary text-white text-center p-4">
+        <h1>Jornada Viagens</h1>
+        <p>Contato</p>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pacotes.html">Pacotes de Viagens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Informações</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Formulários
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="contato.html">Contato</a></li>
+                            <li><a class="dropdown-item" href="exemplo_form.html">Exemplo</a></li>
+                            <li><a class="dropdown-item" href="form_endereco.html">Endereço</a></li>
+                            <li><a class="dropdown-item" href="orcamento.html">Orçamento</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="flex-fill container my-4">
+        <form method="post"> 
+            <label for="nome" class="form-label">Nome:</label>
+            <input type="text" class="form-control" id="nome" name="nome" required>
+            <label for="senha" class="form-label">Senha:</label>
+            <input type="password" class="form-control" id="senha" name="senha">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" name="email" required>
+            <label for="mensagem" class="form-label">Mensagem:</label>
+            <textarea class="form-control" id="mensagem" name="mensagem"></textarea>
+            <select class="form-select mt-2" aria-label="Seleção da escolaridade" name="escolaridade" id="escolaridade">
+                <option selected>Seleciona a escolaridade</option>
+                <option value="1">Ensino Média</option>
+                <option value="2">Ensino Superior</option>
+                <option value="3">Pós Graduação</option>
+                <option value="4">Mestrado ou Doutorado</option>
+            </select>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="sim" id="termos" name="termos">
+                <label class="form-check-label" for="termos">
+                    Aceito os termos e condições
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="sim" id="recEmail" name="recEmail">
+                <label class="form-check-label" for="recEmail">
+                    Aceito o recebimento de emails
+                </label>
+            </div>
+
+            <label class="form-label" for="sexo">Sexo:</label>
+            <input class="form-check-input" type="radio" name="sexo" id="sexo" value="m">
+            <label class="form-check-label" for="sexo"> M </label>
+            <input class="form-check-input" type="radio" name="sexo" id="sexo" value="f" checked>
+            <label class="form-check-label" for="sexo"> F </label>
+
+            <br>
+            <input type="submit" value="Enviar" class="btn btn-outline-primary">
+            <input type="reset" value="Limpar" class="btn btn-outline-danger">
+        </form>
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb m-3">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Formulários</li>
+                <li class="breadcrumb-item active" aria-current="page">Contato</li>
+            </ol>
+        </nav>
+    </main>
+
+    <footer> <!-- rodapé da página -->
+        <div class="footer-container">
+            <div class="footer-copy">
+                <p>&copy; 2026 Jornada Viagens. Todos os direitos reservados</p>
+            </div>
+            <!-- criar uma ancora de link -->
+            <a name="contato"></a>
+            <address class="footer-contato">
+                <h2>Contato</h2>
+                <p>Email: contato@jornadaviagens.com.br
+                <p>Tel/WhatsApp: (21)91234-1234
+            </address>
+            <nav class="footer-redes" aria-label="Redes Sociais">
+                <a href="https://pt-br.facebook.com/" target="_blank" aria-label="facebook"><img
+                        src="img/facebook-icon.png"></a>
+                <a href="https://www.instagram.com/" target="_blank" aria-label="instagram"><img
+                        src="img/instagram-icon.png"></a>
+                <a href="https://x.com/" target="_blank" aria-label="x"><img src="img/x-icon.avif"></a>
+            </nav>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <input type="button">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search">
+<input type="submit">
+<input type="tel">
+<input type="text">
+<input type="time">
+<input type="url">
+<input type="week"> -->

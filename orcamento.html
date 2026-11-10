@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornada Viagens</title>
+    <!-- Configuração do css externo -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
+
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <header class="container-fluid bg-primary text-white text-center p-4">
+        <h1>Jornada Viagens</h1>
+        <p>Orçamento de Viagens ✈️🌍</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Menu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pacotes.html">Pacotes de Viagens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Informações</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Formulários
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="contato.html">Contato</a></li>
+                            <li><a class="dropdown-item" href="exemplo_form.html">Exemplo</a></li>
+                            <li><a class="dropdown-item" href="form_endereco.html">Endereço</a></li>
+                            <li><a class="dropdown-item" href="orcamento.html">Orçamento</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main>
+
+        <h2 id="titulo-pacotes">Conheça nossos pacotes <span class="badge rounded-pill text-bg-primary">Promoção</span>
+        </h2>
+
+
+        
+
+        <section id="orcamento">
+            <form id="form-orcamento" class="bg-white p-4 rounded shadow-sm" novalidate>
+                <!-- FIELDSET 1: dados pessoais -->
+                <fieldset class="border rounded p-3 mb-4">
+                    <legend class="float-none w-auto px-2 fs-5">
+                        <i class="bi bi-person-fill"></i> Dados do viajante
+                    </legend>
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome completo</label>
+                        <input type="text" id="nome" name="nome" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail</label>
+                        <input type="email" id="email" name="email" class="form-control">
+                    </div>
+                </fieldset>
+
+                <!-- FIELDSET 2: detalhes da viagem -->
+                <fieldset class="border rounded p-3 mb-4">
+                    <legend class="float-none w-auto px-2 fs-5">
+                        <i class="bi bi-airplane-fill"></i> Detalhes da viagem
+                    </legend>
+
+                    <!-- DATALIST: o input se liga ao datalist pelo atributo list = id do datalist -->
+                    <div class="mb-3">
+                        <label for="destino" class="form-label">Destino</label>
+                        <input type="text" id="destino" name="destino" class="form-control" list="lista-destinos">
+                        <datalist id="lista-destinos">
+                            <option value="Japão">
+                            <option value="Paraíba">
+                            <option value="San Andreas">
+                            <option value="Belford Roxo">
+                        </datalist>
+                    </div>
+
+                    <!-- OPTGROUP: categorias dentro do select -->
+                    <div class="mb-3">
+                        <label for="hospedagem" class="form-label">Hospedagem (diária por pessoa)</label>
+                        <select id="hospedagem" name="hospedagem" class="form-select">
+                            <option value="">Selecione...</option>
+                            <optgroup label="Econômica">
+                                <option value="80">Hostel — R$ 80</option>
+                                <option value="150">Pousada — R$ 150</option>
+                            </optgroup>
+                            <optgroup label="Conforto">
+                                <option value="250">Hotel 3 estrelas — R$ 250</option>
+                                <option value="500">Resort — R$ 500</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <div class="row">
+                        <!-- OUTPUT: mostra o número escolhido no range -->
+                        <div class="col-md-6 mb-3">
+                            <label for="pessoas" class="form-label">
+                                Quantidade de pessoas:
+                                <output id="saida-pessoas" for="pessoas" class="badge text-bg-primary fs-6">2</output>
+                            </label>
+                            <input type="range" id="pessoas" name="pessoas" class="form-range" min="1" max="10"
+                                value="2">
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="diarias" class="form-label">Número de diárias</label>
+                            <input type="number" id="diarias" name="diarias" class="form-control" min="1" max="30"
+                                value="3">
+                        </div>
+                    </div>
+
+                    <!-- OUTPUT do total: quem escreve aqui é o jQuery (Passo 6) -->
+                    <p class="fs-4 mb-0">
+                        <i class="bi bi-calculator"></i> Total estimado:
+                        <output id="total" for="hospedagem pessoas diarias" class="fw-bold text-success">R$
+                            0,00</output>
+                    </p>
+                </fieldset>
+
+                <button type="submit" class="btn btn-primary"> Solicitar
+                    orçamento <span class="badge text-bg-danger"><i class="bi bi-send-fill"></i></span>
+                </button>
+                <button type="reset" class="btn btn-outline-secondary"><i class="bi bi-eraser"></i> Limpar</button>
+
+
+            </form>
+        </section>
+        <!-- orcamento no inicio da main -->
+        <div class="alert alert-info d-flex align-items-center gap-2">
+            <i class="bi bi-info-circle-fill fs-4"></i>
+            <div>Os valores são <strong>estimativas</strong>. O preço final é confirmado pela nossa equipe.</div>
+        </div>
+        <!--orcamento abaixo do primeiro alert-->
+        <div class="alert alert-success alert-dismissible fade show">
+            <strong>Pronto!</strong> Seu orçamento foi enviado.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Fechar"></button>
+        </div>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb m-3">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Formulários</li>
+                <li class="breadcrumb-item active" aria-current="page">Orçamento</li>
+            </ol>
+        </nav>
+    </main>
+    <footer> <!-- rodapé da página -->
+        <div class="footer-container">
+            <div class="footer-copy">
+                <p>&copy; 2026 Jornada Viagens. Todos os direitos reservados</p>
+            </div>
+            <!-- criar uma ancora de link -->
+            <a name="contato"></a>
+            <address class="footer-contato">
+                <h2>Contato</h2>
+                <p>Email: contato@jornadaviagens.com.br
+                <p>Tel/WhatsApp: (21)91234-1234
+            </address>
+            <nav class="footer-redes" aria-label="Redes Sociais">
+                <a href="https://pt-br.facebook.com/" target="_blank" aria-label="facebook">
+                    <i class="bi bi-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" aria-label="instagram">
+                    <i class="bi bi-instagram"></i></a>
+                <a href="https://x.com/" target="_blank" aria-label="x">
+                    <i class="bi bi-twitter"></i></a>
+            </nav>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

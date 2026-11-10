@@ -1,0 +1,1367 @@
+.hide {
+    display: none
+}
+
+.menu-filtro>li {
+    width: 69.47368421052632%;
+    margin-left: 4.3859649122807015%
+}
+
+.menu-filtro>li:last-child {
+    width: 21.403508771929824%;
+    float: left
+}
+
+@media only screen and (max-width:480px) {
+    .show-sm {
+        display: block !important
+    }
+
+    .hide-sm {
+        display: none
+    }
+
+    .sm-padding {
+        padding-left: 20px !important;
+        padding-right: 20px !important
+    }
+
+    .bt {
+        width: auto
+    }
+
+    .page-template-default #breadcrumbs {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+
+    .page-template-default #breadcrumbs:after {
+        content: '';
+        display: block;
+        clear: none;
+        visibility: visible;
+        height: 1px;
+        margin: 2px 0 0
+    }
+
+    .page-template-default #breadcrumbs li {
+        display: none
+    }
+
+    .page-template-default #breadcrumbs li:last-child {
+        display: block
+    }
+
+    .page-template-default #breadcrumbs li:last-child a {
+        display: block;
+        float: inherit;
+        height: auto;
+        line-height: inherit
+    }
+
+    .page-template-default iframe {
+        width: 100% !important;
+        float: inherit !important
+    }
+
+    .page-template-default h2 {
+        margin-top: 20px
+    }
+
+    .widget-cursos-graduacao,
+    .widget-ultimas-noticias,
+    .widget-noticias,
+    .widget-areas,
+    .widget-common {
+        border-right: none;
+        border-left: none;
+        border-bottom: none;
+        text-align: center;
+        margin: 0
+    }
+
+    .widget-cursos-graduacao .card-container article:first-child,
+    .widget-ultimas-noticias .card-container article:first-child,
+    .widget-noticias .card-container article:first-child,
+    .widget-areas .card-container article:first-child,
+    .widget-common .card-container article:first-child {
+        margin-left: 0
+    }
+
+    .widget-common-open {
+        margin: 0
+    }
+
+    .widget-common-open .widget-cont {
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    .widget-common-open .widget-cont .card-image img {
+        width: 100%
+    }
+
+    .card {
+        margin-bottom: 30px
+    }
+
+    .card-noticia-min {
+        padding-left: 0
+    }
+
+    .card-noticia-min .card-image {
+        position: relative;
+        margin-bottom: 10px
+    }
+
+    .card-noticia-min .card-image img {
+        display: block
+    }
+
+    .card-noticia .card-resumo {
+        height: auto
+    }
+
+    .txt-left {
+        text-align: inherit
+    }
+
+    .slick-dots {
+        list-style: none;
+        margin: 0;
+        margin-bottom: 20px;
+        margin-top: -30px
+    }
+
+    .slick-dots li {
+        display: inline-block;
+        height: 13px
+    }
+
+    .slick-dots li button {
+        width: 13px;
+        height: 13px;
+        background-color: #fff;
+        overflow: hidden;
+        text-indent: -100px;
+        margin-right: 2px;
+        border-radius: 20px;
+        border: solid 3px #ccc;
+        display: block
+    }
+
+    .slick-dots li.slick-active button {
+        background-color: #005595;
+        margin-top: -4px
+    }
+
+    .bbox {
+        width: 100%;
+        height: auto !important;
+        border: 0;
+        border-top: solid 1px #eee;
+        border-bottom: solid 1px #eee
+    }
+
+    .bbox .bbox-title {
+        padding: 0 0 0 17px;
+        margin: 0 0 30px
+    }
+
+    .bbox .bbox-content {
+        margin: 0;
+        padding: 0
+    }
+
+    .bbox .bbox-content .leia-mais {
+        text-align: left;
+        font-weight: 400;
+        padding-left: 20px !important;
+        padding-right: 20px !important
+    }
+
+    .bbox .bbox-content>ul {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    .bbox .bbox-content .bbox-cta-list {
+        margin: 20px
+    }
+
+    .bbox .bbox-content img {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        padding-left: 20px !important;
+        padding-right: 20px !important
+    }
+
+    .bbox .bbox-content i {
+        width: 100% !important
+    }
+
+    .bbox .bbox-content i.fa {
+        width: auto !important
+    }
+
+    #menu-faculdade-senac li {
+        display: block;
+        padding: 0 20px;
+        margin: 0
+    }
+
+    #menu-faculdade-senac li a {
+        display: block;
+        padding: 20px 0;
+        border: 0;
+        border-bottom: solid 1px #0062a9
+    }
+
+    #menu-faculdade-senac li:last-child a {
+        border: 0
+    }
+
+    .icon {
+        width: auto !important;
+        height: auto !important
+    }
+
+    .edital-link {
+        padding: 0 !important
+    }
+
+    .edital-link a {
+        margin: 0 !important;
+        display: block
+    }
+
+    .edital-link .edital-title {
+        margin-left: 0
+    }
+
+    .fcldd-page .fcldd-content {
+        width: auto;
+        margin: 0
+    }
+
+    .post-type-archive-cursos .cont-cat-cursos #primary,
+    .archive.tax-area .cont-cat-cursos #primary,
+    .post-type-archive-cursos .cont-cat-cursos #header-area,
+    .archive.tax-area .cont-cat-cursos #header-area,
+    .post-type-archive-cursos .cont-cat-noticias #header-area,
+    .archive.tax-area .cont-cat-noticias #header-area {
+        padding-left: 0
+    }
+
+    .post-type-archive-cursos .sam-pro-container,
+    .archive.tax-area .sam-pro-container {
+        display: none !important
+    }
+
+    .post-type-archive-cursos #filtro-cursos,
+    .archive.tax-area #filtro-cursos {
+        position: absolute;
+        background-color: #eee;
+        border: solid 1px #ddd;
+        padding: 20px;
+        width: 92%;
+        margin: 0 auto;
+        z-index: 9999999;
+        margin-top: -100px
+    }
+
+    .post-type-archive-cursos .button-area button,
+    .archive.tax-area .button-area button {
+        background-color: #015498;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 16px;
+        font-weight: bolder;
+        color: #fff;
+        text-transform: uppercase;
+        width: 100%;
+        margin-bottom: 40px
+    }
+
+    .post-type-archive-cursos .widget-turmas-abertas .widget-cont,
+    .archive.tax-area .widget-turmas-abertas .widget-cont {
+        margin-left: 20px;
+        margin-right: 20px
+    }
+
+    .post-type-archive-cursos .widget-turmas-abertas .slick-prev,
+    .archive.tax-area .widget-turmas-abertas .slick-prev {
+        left: -25px
+    }
+
+    .post-type-archive-cursos .widget-turmas-abertas .slick-next,
+    .archive.tax-area .widget-turmas-abertas .slick-next {
+        right: -25px
+    }
+
+    .post-type-archive-cursos .term-total,
+    .archive.tax-area .term-total {
+        position: inherit;
+        text-align: center;
+        font-size: 22px
+    }
+
+    .post-type-archive-cursos #header-area,
+    .archive.tax-area #header-area {
+        margin-bottom: 20px
+    }
+
+    .page-faculdade-senac .bbox-content .formas-ingresso img {
+        width: 40px;
+        height: 40px;
+        margin: 0;
+        padding: 0 !important
+    }
+
+    .page-faculdade-senac .bbox-content .sobre-faculdade li {
+        float: left;
+        width: 33.33333333%;
+        margin: 0;
+        padding: 20px 0;
+        text-align: center
+    }
+
+    .page-espaco-do-aluno .bbox-content li.thumb img {
+        width: auto !important
+    }
+
+    .page-espaco-do-aluno .bbox-content li.thumb span {
+        float: left;
+        width: 30%
+    }
+
+    .page-espaco-do-aluno .bbox-content li.thumb i {
+        float: left;
+        width: 70% !important
+    }
+
+    .page-espaco-do-aluno .calendario-completo {
+        margin-right: 20px
+    }
+
+    .curso-fc-intro.no-video .list-wchevron li,
+    .single-fc-cursos .curso-menu-extra li {
+        display: block
+    }
+
+    .curso-fc-intro.no-video .list-wchevron li {
+        width: auto;
+        padding-top: 0;
+        padding-bottom: 0
+    }
+
+    .modulos,
+    .single-fc-cursos .turmas-cont,
+    .single-fc-cursos .cont-form,
+    .menu-filtro>li:last-child,
+    .form-common label,
+    .single-fc-cursos .cont-form .l-max:nth-child(even),
+    .single-fc-cursos .cont-form .l-max,
+    .form-common label.l-col-2,
+    .single-fc-cursos .cont-form .l-max,
+    .menu-filtro>li:first-child,
+    #boleto-content form {
+        float: none;
+        width: auto
+    }
+
+    .single-fc-cursos .cont-form {
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .modulos {
+        margin-right: 0
+    }
+
+    .modulos table td {
+        padding-left: 10px
+    }
+
+    .modulos table td.hora {
+        width: 20%;
+        text-align: center
+    }
+
+    #filtro-turma {
+        margin-bottom: 45px
+    }
+
+    .single-fc-cursos .curso-menu-extra li {
+        margin-bottom: 10px
+    }
+
+    .abas li {
+        margin-right: 15px;
+        margin-bottom: 20px
+    }
+
+    .menu-filtro>li:first-child,
+    .menu-filtro>li:last-child {
+        margin-right: 4.3859649122807015%
+    }
+
+    .cont-cat-cursos .term-total {
+        top: auto;
+        text-align: left;
+        margin-bottom: 15px
+    }
+
+    .term-total span {
+        display: inline
+    }
+
+    #boleto-content table td,
+    #boleto-content table th {
+        font-size: 11px;
+        font-weight: 400;
+        text-transform: none;
+        padding: 3px
+    }
+
+    .bt-agende-vestibular {
+        float: none;
+        display: block
+    }
+
+    .turma-item {
+        padding-right: 5%
+    }
+
+    .turma-item p {
+        margin-right: 0
+    }
+}
+
+.destaque-slide-item>a,
+.destaque-slide-item>img,
+.menu-filtro>li,
+#tag-developer,
+#copyright,
+#curso-cont,
+#menu-contexto,
+.widget-busca-unidade label,
+.widget-busca-unidade label:first-child,
+.widget-busca-unidade .bt,
+.widget-cards-big .card-big,
+.widget-cards-big .card-big:first-child,
+.slide-contexto-thumb,
+.slide-contexto-text,
+.single-notica-cont #primary #the_content,
+.single-notica-cont .sidebar-cont,
+#contactForm,
+#contactSEForm,
+.item-busca .col-1,
+.cont-cat-cursos #breadcrumbs,
+#filtro-cursos,
+.cont-cat-noticias #breadcrumbs,
+.card-imprensa,
+#imprensa-header .tt-common,
+.page-click-oportunidades .area_texto-1,
+.page-click-oportunidades .area_texto-2,
+.agrupador-senac-empresas #the_content .the_content>.wp-post-image:first-child {
+    width: auto;
+    float: none
+}
+
+.card-imprensa .card-tt,
+.card-imprensa {
+    height: auto
+}
+
+#searchform form label,
+.widget-def-tt-sub,
+.search-results #breadcrumbs {
+    display: none
+}
+
+#menu-contexto,
+.slide-contexto-tt,
+.single-notica-cont #primary .pre-texto,
+.single-notica-cont #primary #the_content,
+.page-numbers li,
+.page-id-87 .bt-duvidas,
+.agrupador-senac-empresas #the_content .the_content>.wp-post-image:first-child {
+    margin: 0
+}
+
+.slide-contexto-text,
+#info-header {
+    padding: 0
+}
+
+.has-menu-contexto #primary {
+    padding-left: 0
+}
+
+.widget-busca-unidade .bt {
+    display: block
+}
+
+.search-results .cont-cat-cursos #primary,
+.search-results .cont-cat-cursos #primary,
+.search-results .cont-cat-cursos #header-area,
+#menu-contexto {
+    margin: 0 13px
+}
+
+.term-total {
+    position: static;
+    text-align: center
+}
+
+.search-results .cont-cat-cursos #header-area {
+    text-align: center
+}
+
+.the_content h1 {
+    line-height: 1.2
+}
+
+.cards-list {
+    padding-top: 15px
+}
+
+.card-imprensa {
+    padding-bottom: 15px
+}
+
+.post-type-archive-cursos #filtro-cursos,
+.archive.tax-area #filtro-cursos {
+    position: absolute;
+    background-color: #eee;
+    border: solid 1px #ddd;
+    padding: 20px;
+    width: 92%;
+    margin: 0 auto;
+    z-index: 9999999;
+    margin-top: -100px
+}
+
+.post-type-archive-cursos .button-area button,
+.archive.tax-area .button-area button {
+    background-color: #015498;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 40px
+}
+
+.cont-cat-cursos #primary,
+.cont-cat-cursos #header-area,
+.cont-cat-noticias #header-area {
+    margin: 0
+}
+
+.site-title {
+    float: none;
+    width: 136px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -68px
+}
+
+.site-title img {
+    margin-left: auto;
+    margin-right: auto
+}
+
+#menu-toggle-cursos,
+#bt-opensearch {
+    float: right;
+    width: 76px
+}
+
+#bt-opensearch {
+    float: left
+}
+
+.menu-filtro>li {
+    margin-left: 4.3859649122807015%;
+    padding-bottom: 15px
+}
+
+.menu-filtro>li>strong {
+    height: auto;
+    padding: 0 0 15px
+}
+
+#searchform {
+    position: relative
+}
+
+#searchform form {
+    padding: 0;
+    margin: 10px;
+    position: relative
+}
+
+#searchform #searchsubmit,
+#searchform input {
+    height: 39px;
+    line-height: 39px
+}
+
+#searchform #searchsubmit {
+    width: 137px;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+#searchform input {
+    width: calc(100% - 137px)
+}
+
+.destaque-slide-item>a,
+.destaque-slide-item>img {
+    position: relative;
+    left: auto;
+    margin-left: 0;
+    max-width: 100%
+}
+
+#colophon {
+    border: none;
+    margin-top: 0
+}
+
+#nav-site-map {
+    margin: 0 13px;
+    border: none
+}
+
+#site-info {
+    position: static;
+    width: auto
+}
+
+.site-info-dados {
+    display: block;
+    width: auto;
+    background: #005497;
+    background: -moz-linear-gradient(top, #005497 0%, #005ea9 100%);
+    background: -webkit-linear-gradient(top, #005497 0%, #005ea9 100%);
+    background: linear-gradient(to bottom, #005497 0%, #005ea9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#005497', endColorstr='#005ea9', GradientType=0)
+}
+
+.site-info-dados-req .bt {
+    margin: 15px 0
+}
+
+.site-info-dados-req .final-text {
+    margin-top: 26px
+}
+
+#super-footer {
+    text-align: center
+}
+
+#menu-footer {
+    padding: 18px 0 0;
+    margin-right: 0;
+    -webkit-columns: auto;
+    -moz-columns: auto;
+    columns: auto
+}
+
+#menu-footer li {
+    margin-bottom: 11px
+}
+
+.w-cont-footer {
+    margin: 0;
+    padding-bottom: 30px
+}
+
+#copyright span:before {
+    content: normal
+}
+
+#primary {
+    margin: 0 13px;
+    padding: 20px 0
+}
+
+.slick-dots {
+    list-style: none;
+    margin: 0;
+    padding-top: 26px;
+    position: relative;
+    bottom: auto
+}
+
+.slick-dots li {
+    display: inline-block;
+    height: auto;
+    width: auto
+}
+
+.slick-dots li button {
+    width: 13px;
+    height: 13px;
+    background-color: #fff;
+    overflow: hidden;
+    text-indent: -100px;
+    margin-right: 2px;
+    border: solid 3px #ccc;
+    display: block;
+    border-radius: 20px
+}
+
+.slick-dots li.slick-active button {
+    border-color: #005595;
+    background-color: #005595
+}
+
+.carrossel-buttons {
+    display: block
+}
+
+.carrossel-buttons li {
+    display: block;
+    width: auto
+}
+
+.carrossel-slides .list-itens {
+    white-space: nowrap
+}
+
+.carrossel-slides .list-itens .card {
+    white-space: normal
+}
+
+.bt-todos {
+    float: none;
+    display: block;
+    text-align: center
+}
+
+.widget-eventos {
+    padding-bottom: 42px
+}
+
+.page-home .widget-eventos {
+    float: none;
+    width: auto
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0
+}
+
+.widget-eventos .carrossel-slides {
+    box-shadow: none
+}
+
+.page-home .widget-veja-tambem {
+    margin-right: 0
+}
+
+.widget-veja-tambem .item .tt,
+.widget-veja-tambem .item-cont {
+    margin: 0
+}
+
+.widget-veja-tambem-cont {
+    margin: 0;
+    box-shadow: none
+}
+
+.widget-veja-tambem-cont .slick-list {
+    border: 1px solid #efefef
+}
+
+.widget-veja-tambem-cont .item p {
+    margin-bottom: 0
+}
+
+.widget-veja-tambem .item {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 13px;
+    width: 100%;
+    box-shadow: none;
+    border: none
+}
+
+.widget-noticias-destaque {
+    padding-bottom: 0
+}
+
+.widget-common .widget-cont {
+    margin: 0 0 30px
+}
+
+.widget-common .slick-arrow {
+    display: none
+}
+
+.widget-filtro.widget-2-colunas .carrossel-slides {
+    margin: 0
+}
+
+#breadcrumbs {
+    padding-left: 13px
+}
+
+#breadcrumbs ol {
+    margin-left: 0
+}
+
+.widget-filtro .widget-filter-options {
+    width: 100%
+}
+
+.widget-filtro .widget-filter-options li a {
+    white-space: normal
+}
+
+.post-type-archive-cursos .cont-cat-cursos #primary {
+    padding-bottom: 30px
+}
+
+#gal-curso {
+    float: none;
+    margin: 0;
+    width: auto
+}
+
+#breadcrumbs {
+    padding: 0 0 0 13px;
+    border: 0
+}
+
+#breadcrumbs li {
+    display: none
+}
+
+#breadcrumbs li:last-child {
+    display: block;
+    font-size: 24px;
+    font-weight: 100
+}
+
+#breadcrumbs li:last-child>span {
+    font-size: 24px;
+    font-weight: 100
+}
+
+.ssba-wrap {
+    padding: 15px 0
+}
+
+.ssba-wrap,
+.ssba-wrap>div {
+    text-align: center !important
+}
+
+.curso-cont .list-wchevron {
+    padding-left: 0 !important
+}
+
+.curso-unidades {
+    float: none;
+    text-align: center
+}
+
+#filtro-turma {
+    margin-top: 10px;
+    float: none
+}
+
+#filtro-turma label {
+    margin: 0;
+    width: 100%
+}
+
+#filtro-turma>span:first-child {
+    display: none
+}
+
+.formLead .bt {
+    margin: 0 auto;
+    width: 100%
+}
+
+.turma-valor {
+    position: static
+}
+
+.widget-cursos .widget-bt {
+    display: none
+}
+
+.widget-common .carrossel-slides .card {
+    margin: 0
+}
+
+.widget-common .carrossel-slides {
+    margin: 0
+}
+
+.curso-menu-extra {
+    display: none
+}
+
+.fcldd-nav ul {
+    padding: 0
+}
+
+.fcldd-nav ul li {
+    display: block;
+    padding: 0 14px;
+    margin: 0
+}
+
+.fcldd-nav ul li a:before {
+    content: normal
+}
+
+.fcldd-nav ul li a {
+    border-top: 1px solid #0062aa;
+    display: block;
+    padding: 15px 8px 13px;
+    text-align: left;
+    font-weight: 400
+}
+
+.slick-slide img:not(.custom-size) {
+    width: auto !important;
+    height: auto !important
+}
+
+#destaque-fc-slides-buttons {
+    position: static;
+    width: auto;
+    text-align: center;
+    margin-top: 30px
+}
+
+#destaque-fc-slides-buttons li {
+    padding: 0;
+    width: auto;
+    display: inline-block
+}
+
+#destaque-fc-slides-buttons li a {
+    border: 1px solid #e1e1e1;
+    background: #fff;
+    padding: 10px 12px
+}
+
+#destaque-fc-slides-buttons li img {
+    position: static
+}
+
+#destaque-fc-slides-buttons li a.current {
+    border-color: #005594
+}
+
+#destaque {
+    margin-bottom: 40px
+}
+
+.widget-common {
+    border-top: 0;
+    padding-top: 0
+}
+
+.widget-common-tt,
+.widget-bt {
+    position: static
+}
+
+.bbox-content-list li {
+    padding-left: 0
+}
+
+.agrupador-senac-empresas #menu-contexto-2 {
+    display: block
+}
+
+#menu-contexto-2>li,
+#menu-contexto-2 li,
+#menu-contexto-2 li ul li {
+    margin: 0;
+    padding: 0
+}
+
+#menu-contexto-2 li,
+#menu-contexto-2 li a,
+.agrupador-senac-empresas #menu-contexto-2 li,
+.agrupador-senac-empresas #menu-contexto-2 li a {
+    display: block
+}
+
+#menu-contexto-2 li a {
+    margin: 0 13px;
+    height: auto;
+    line-height: 1.2;
+    padding: 12px 0 10px;
+    font-weight: 400
+}
+
+#menu-contexto-2>li a {
+    border-top: 1px solid #0062aa
+}
+
+#menu-contexto-2 li:first-child>a {
+    border: none
+}
+
+#menu-contexto-2 li ul {
+    position: static;
+    padding: 0
+}
+
+#menu-contexto-2 ul li a {
+    border-top-color: #ededed
+}
+
+.slide-contexto-text {
+    padding-top: 20px
+}
+
+.slide-contexto-text .bt {
+    margin-top: 18px
+}
+
+#contactForm,
+#contactSEForm {
+    padding-bottom: 40px
+}
+
+#contactForm .bt,
+#contactSEForm .bt {
+    margin: 0;
+    display: block;
+    float: none
+}
+
+.page-trabalhe-conosco .bt-tpl {
+    width: auto;
+    margin-bottom: 15px
+}
+
+.item-busca .col-1 {
+    min-height: 0
+}
+
+.thumb-busca {
+    position: relative;
+    float: left;
+    margin: 0 15px 0 0
+}
+
+.item-busca .col-1 {
+    padding-left: 0
+}
+
+#click-oportunidades-bnr {
+    background: url(//www.rj.senac.br/wp-content/themes/senac-def-2021/css/../images/banner-click-oportunidades-mobile.jpg)
+}
+
+.page-click-oportunidades #click-oportunidades-bnr {
+    margin: 0 -13px 15px
+}
+
+#slides-cards .widget-special-item {
+    width: auto;
+    height: auto
+}
+
+.widget-special .widget-def-tt,
+.widget-special .widget-def-tt-sub {
+    margin: 0;
+    text-align: center;
+    width: auto;
+    float: none
+}
+
+.widget-special-item.current .widget-special-item-cont,
+.widget-special-item.slick-current .widget-special-item-cont {
+    width: auto;
+    position: relative;
+    top: auto;
+    left: auto;
+    margin: 0 16px;
+    box-shadow: none
+}
+
+.widget-special-item.current .item-thumb img,
+.widget-special-item.slick-current .item-thumb img {
+    opacity: 1
+}
+
+#cont-slides-cards {
+    position: relative
+}
+
+#slides-cards {
+    margin: 0
+}
+
+.widget-special .widget-def-tt-sub {
+    display: none
+}
+
+#slides-cards .widget-special-item {
+    padding: 0
+}
+
+#slides-cards .slick-dots li button {
+    border-color: #fff;
+    background: 0 0
+}
+
+#slides-cards .slick-dots li.slick-active button {
+    border: 3px solid #ffbf00 !important;
+    background: #ffbf00
+}
+
+#comunicacao-error {
+    text-align: left;
+    position: relative;
+    right: 0;
+    top: 0;
+    padding-right: 0
+}
+
+.the_content a {
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto
+}
+
+.widget-common {
+    position: relative
+}
+
+.widget-common .widget-bt {
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 100%;
+    text-align: center
+}
+
+.widget-common-text {
+    margin-top: 0
+}
+
+.widget-busca-unidade,
+#slide-contexto {
+    margin-bottom: 40px
+}
+
+.widget-filtro .widget-filter-bt>span {
+    font-size: 16px;
+    text-transform: none
+}
+
+.widget-busca-unidade .bt {
+    width: 100%
+}
+
+.widget-common .widget-bt {
+    top: 124%
+}
+
+.single-unidades #the_content {
+    float: none;
+    width: auto;
+    border-right: 0;
+    padding-right: 0;
+    margin-bottom: 32px
+}
+
+.single-unidades #breadcrumbs {
+    display: none
+}
+
+.infos-unidade {
+    float: none;
+    width: auto;
+    padding: 0;
+    margin-bottom: 32px;
+    margin-left: 0
+}
+
+.info-unidade {
+    font-size: 16px;
+    padding-left: 60px;
+    min-height: 44px;
+    margin: 28px 0 0
+}
+
+.infos-unidade .bt {
+    margin: 40px 0 0;
+    width: 100%
+}
+
+.cont-info:before {
+    content: normal
+}
+
+#instalacoes {
+    padding-bottom: 0
+}
+
+#gal-intalacoes,
+#gal-instal-big,
+#instalacoes .the_content,
+#gal-instal-thumbs,
+.single-fc-cursos #gal-curso-big,
+.curso-fc-intro.has-video,
+.cont-video-int,
+.bbox-half-l,
+.bbox-half-r,
+.single-notica-cont #primary #the_content .the_content,
+.single-eventos .single-notica-cont .sidebar-cont,
+.single-eventos .single-notica-cont #primary #the_content {
+    float: none;
+    margin-left: 0;
+    margin-right: 0;
+    width: auto;
+    clear: both
+}
+
+.single-eventos .the_content .dtl-evento {
+    padding: 0;
+    margin: 0 0 15px
+}
+
+.widget-eventos-destaque {
+    padding: 36px 0 0
+}
+
+#gal-instal-thumbs {
+    height: auto;
+    margin: 0 10px
+}
+
+#gal-instal-thumbs .slick-list a {
+    padding: 5px
+}
+
+#gal-instal-thumbs .slick-list {
+    margin: 30px 14px
+}
+
+#gal-instal-thumbs .slick-prev,
+#gal-instal-thumbs .slick-next {
+    left: -12px;
+    margin-top: -12px
+}
+
+#gal-instal-thumbs .slick-next {
+    left: auto;
+    right: -12px
+}
+
+.curso-fc-intro.has-video .bbox-content {
+    padding: 0
+}
+
+.equal-h-item,
+.bbox-content-list li .bt {
+    position: static
+}
+
+.bbox-content-list li {
+    padding: 14px 0
+}
+
+.bbox-content-list li .bt {
+    margin-top: 20px;
+    width: 100%
+}
+
+.widget-filtro {
+    margin: 40px 0
+}
+
+.widget-filtro .widget-filter,
+.widget-filtro .widget-filter-bt {
+    width: auto;
+    display: block;
+    margin-left: 0
+}
+
+.widget-filtro .widget-filter-bt,
+.box-pos .bbox-content-list li {
+    padding-right: 0
+}
+
+.widget-filtro .widget-filter-bt>span {
+    padding: 6px 22px 6px 0
+}
+
+.espaco-aluco-atalhos {
+    margin: 0 13px
+}
+
+.post-type-archive-eventos .widget-eventos {
+    margin-top: 0;
+    padding-bottom: 10px
+}
+
+#searchform #searchsubmit {
+    font-size: 15px
+}
+
+#menu-footer,
+#copyright,
+.fcldd-nav ul li a {
+    font-size: 16px
+}
+
+.site-info-dados .tt span {
+    font-size: 19px
+}
+
+.term-total span {
+    font-size: 18px
+}
+
+.bbox-title,
+.single-fc-cursos .turma-indisponivel .tt,
+.single-fc-cursos .cont-form .tt,
+#breadcrumbs li:last-child>span {
+    font-size: 20px
+}
+
+#nav-site-map #menu-footer>li>a {
+    font-size: 22px
+}
+
+.tt-common {
+    font-size: 24px
+}
+
+#imprensa-header .tt-common,
+.area_texto-tt,
+.tpl-img-tt,
+.the_content h1 {
+    font-size: 28px
+}
